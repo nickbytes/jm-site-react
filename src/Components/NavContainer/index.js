@@ -46,6 +46,8 @@ const NavContainer = () => {
     <div className={css(styles.nav)}>
       <NavName />
       <div className={css(styles.contents)}>
+        {/* Fun chance for a map function here if you are pulling names of nav from array or something like that,
+          this is good for now though */}
         <NavItem title={"Work"} />
         <NavItem title={"About"} />
         <NavItem title={"Contact"} />
